@@ -1,3 +1,5 @@
+import { url } from "inspector";
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -8,7 +10,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "I prioritize collaboration to Tailor Greats",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +20,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "I'm focused on Craft. Innovate. Evolve.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -38,7 +40,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Tech enthusiast with a passion for innovation.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,7 +51,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building Upcomings",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -59,7 +61,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Wanna start a project together?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -107,68 +109,74 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "We want to express our sincere gratitude for the excellent work on our new website. The beautiful UI design, smooth structure, and user-friendly interface perfectly reflect our vision, and we couldn’t be happier with the result. We also appreciate your ability to deliver such high-quality work at a cost-effective price. We’re excited to see how the website will enhance our online presence.",
+    name: "Administration of RKMM Gbt",
+    title: "Garbeta Ramakrishna Mission",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "From the very beginning, you understood our vision and worked diligently to bring it to life in a way that not only looks fantastic but is also incredibly user-friendly and intuitive. The smooth navigation, responsive design, and attention to detail have truly enhanced the overall experience for our customers, and we’re already seeing positive feedback.",
+    name: "Owner",
+    title: "Dutta Wood Suppies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Manas was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Manas's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Manas is the ideal partner.",
+    name: "Devloper Teams",
+    title: "Team Ai Amigos",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "We want to express our sincere gratitude for the excellent work on our new website. The beautiful UI design, smooth structure, and user-friendly interface perfectly reflect our vision, and we couldn’t be happier with the result. We also appreciate your ability to deliver such high-quality work at a cost-effective price. We’re excited to see how the website will enhance our online presence.",
+    name: "Administration of RKMM Gbt",
+    title: "Garbeta Ramakrishna Mission",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "From the very beginning, you understood our vision and worked diligently to bring it to life in a way that not only looks fantastic but is also incredibly user-friendly and intuitive. The smooth navigation, responsive design, and attention to detail have truly enhanced the overall experience for our customers, and we’re already seeing positive feedback.",
+    name: "Owner",
+    title: "Dutta Wood Suppies",
+  },
+  {
+    quote:
+      "Collaborating with Manas was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Manas's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Manas is the ideal partner.",
+    name: "Devloper Teams",
+    title: "Team Ai Amigos",
   },
 ];
 
-export const companies = [
-  {
-    id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
-  },
-  {
-    id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
-  },
-];
+// export const companies = [
+//   {
+//     id: 1,
+//     name: "cloudinary",
+//     img: "/cloud.svg",
+//     nameImg: "/cloudName.svg",
+//   },
+//   {
+//     id: 2,
+//     name: "appwrite",
+//     img: "/app.svg",
+//     nameImg: "/appName.svg",
+//   },
+//   {
+//     id: 3,
+//     name: "HOSTINGER",
+//     img: "/host.svg",
+//     nameImg: "/hostName.svg",
+//   },
+//   {
+//     id: 4,
+//     name: "stream",
+//     img: "/s.svg",
+//     nameImg: "/streamName.svg",
+//   },
+//   {
+//     id: 5,
+//     name: "docker.",
+//     img: "/dock.svg",
+//     nameImg: "/dockerName.svg",
+//   },
+// ];
 
 export const workExperience = [
   {
@@ -205,13 +213,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    url: "https://github.com/manasdutta04",
   },
   {
     id: 2,
     img: "/twit.svg",
+    url: "https://x.com/manasdutta04",
   },
   {
     id: 3,
     img: "/link.svg",
+    url: "https://linkedin.com/manasdutta04",
   },
 ];
